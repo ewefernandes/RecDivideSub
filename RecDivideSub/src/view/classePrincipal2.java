@@ -7,7 +7,7 @@ public class classePrincipal2 {
 		classeMetodos2 metodo = new classeMetodos2();
 		int a = 32;
 		int b = 4;
-		int div = metodo.Divisao(a, b); // só dá p passar dois parâmetros???
+		int div = metodo.Divisao(a, b);
 		System.out.println("Divisao = " +div);
 		System.out.println("Resto = " +(a- b*div));
 	}
